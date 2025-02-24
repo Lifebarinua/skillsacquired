@@ -1,0 +1,495 @@
+
+.tw0buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.firstdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+}
+
+.checkbox {
+    position: absolute;
+    top: 0px;
+
+}
+
+.clothe-and-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+
+.buy {
+
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgb(255, 164, 28);
+}
+
+.add {
+
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgb(255, 164, 28);
+}
+
+.container {
+    margin: 20px;
+}
+
+.free {
+
+    margin: 20px;
+    color: green;
+}
+
+.cash {
+
+    margin: 20px;
+    color: rgb(0, 118, 0);
+}
+
+.h2 {
+
+    margin: 20px;
+}
+
+
+
+.box {
+    white-space: nowrap;
+    border: 2px solid green;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+}
+
+.control {
+    margin-left: 20px;
+    color: rgb(0, 133, 0);
+}
+.letam1 {
+    margin-top: 75px;
+    margin-left: 120px;
+    width: 100%;
+}
+
+@media (min-width: 800px) {
+    .clothe-and-box,
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr !important;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 799px) {
+    .clothe-and-box,
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr !important;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 700px) {
+    .clothe-and-box,
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 650px) {
+    .clothe-and-box,
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .clothe-and-box,
+    .grid-container {
+        grid-template-columns: 1fr 1fr !important;
+    }
+} 
+
+
+.grid {
+    background-color: lightgreen;
+}
+
+.mutualfriends {
+    font-size: medium;
+    white-space: nowrap;
+}
+
+.picture1 {
+    width: 200px;
+    height: 250px;
+}
+
+.picture2 {
+    border-radius: 15px;
+    width: 15%;
+}
+
+.two {
+    height: 40px;
+    margin-top: 0px;
+    column-gap: 5px;
+    align-items: center;
+    display: flex;
+}
+.addgridfriend:hover{
+    background-color: aquamarine;
+    color: red;
+    cursor: pointer;
+    height: 35px;
+    width: 90px;
+    box-shadow: 0px 0px 0px 10px black;
+}
+.addgridfriend {
+    border-radius: 3px;
+    height: 30px;
+    background-color: blue;
+}
+
+.grid-container {
+    display: grid;
+    margin-left: 120px;
+    padding: 20px;
+    background-color: rgb(249, 245, 239);
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.cart-container {
+    opacity: 0.6;
+}
+
+.clothe2 {
+    position: relative;
+
+    .cart-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 5px;
+        position: absolute;
+        background-color: white;
+        bottom: 0px;
+        width: 190px;
+        height: 50px;
+    }
+
+    .cart {
+        padding: 5px;
+        z-index: 3;
+        border: 1px solid blassck;
+        position: absolute;
+        top: 0px;
+    }
+}
+
+.clothe {
+    margin-left: 120px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+    .off {
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+}
+
+.clothe2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+    .off2 {
+        background-color: black;
+        color: white;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+}
+
+.cloth,
+.cloth2 {
+    width: 200px;
+    height: 200px;
+}
+
+
+.home,
+.explore,
+.subscription,
+.original,
+.youtube-music,
+.library {
+    width: 50%;
+}
+
+.Jesus {
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: 5px;
+}
+
+.side-bar-div:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.side-bar-div {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 90px;
+}
+
+.side-bar {
+    z-index: 10;
+    position: fixed;
+    left: 0px;
+    bottom: 1px;
+    top: 70px;
+    width: 125px;
+    background-color: rgb(196, 240, 225);
+    border: 1px solid black;
+}
+
+.menu:hover .menu2 {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.menu {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .menu2 {
+        position: absolute;
+        bottom: -30px;
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+
+.download1:hover .download2 {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.download {
+    background-color: rgb(185, 152, 185);
+    border: 2px solid white;
+    height: 30px;
+    color: black;
+}
+
+.download1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+    .download2 {
+        position: absolute;
+        bottom: -30px;
+        opacity: 0;
+        pointer-events: none;
+
+    }
+}
+
+.notification:hover .notification2 {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.notification {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+    .notification-counter {
+        border-radius: 10px;
+        background-color: red;
+        color: white;
+        position: absolute;
+        margin: 5px;
+        right: -5px;
+        top: -5px;
+    }
+
+    .notification2 {
+        position: absolute;
+        bottom: -30px;
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+.searchbar,
+.notification-counter,
+.download {
+    cursor: pointer;
+}
+
+.menu-icon,
+.search_icon,
+.voice-search-icon,
+.notification-icon {
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.voice-search {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+    .voice-search2 {
+        position: absolute;
+        bottom: -30px;
+        opacity: 0;
+        margin-right: 5px;
+        pointer-events: none;
+    }
+}
+
+.voice-search:hover .voice-search2 {
+    opacity: 1;
+    transition: opacity 0.5s;
+    white-space: nowrap;
+}
+
+
+.search-icon:hover .search-icon2 {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.search-icon {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+    .search-icon2 {
+        position: absolute;
+        bottom: -35px;
+        opacity: 0;
+        margin-right: 5px;
+        pointer-events: none;
+    }
+
+}
+
+.left-section {
+    margin-left: 10px;
+    width: 7%;
+}
+
+.middle-section:hover .search4 {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    width: 60%;
+
+    .search4 {
+        position: absolute;
+        bottom: -25px;
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+.right-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    width: 30%;
+}
+
+.header-container {
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(185, 152, 185);
+}
+
+.searchbar {
+    height: 30px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+header {
+    z-index: 10;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: opx;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 71px;
+    background-color: lightgray;
+}
+
+body {
+    background-color: rgb(248, 234, 234);
+}
